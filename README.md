@@ -6,13 +6,17 @@ It will/may be a data science model for identifying Healthcare Professionals (HC
 
 
 # Installation
-please refer to [SETUP.md](docs/SETUP.md#installation) file for project setup
+Please refer to [SETUP.md](docs/SETUP.md#installation) file for project setup
 
 ## Problem Statement
-build a robust model that can accurately predict whether a user belongs to the HCP category and its specialization id/taxonomy.
+Build a robust model that can accurately predict whether a user belongs to the HCP category and its specialization id/taxonomy.
 
 ## Dataset
 Ad server logs containing information on user behavior and other features
+
+
+## Statical analysic
+Please refer the following document for statical analysic of the training dataset: [Google Sheet](https://docs.google.com/spreadsheets/d/1-gNi5ljvvZqSKBHLqbQJc88xk-io77YfODlzzupGVwc/edit?usp=sharing)
 
 # Contribution
 ### Piyush Patel
