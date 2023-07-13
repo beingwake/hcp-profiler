@@ -45,14 +45,14 @@ if __name__=="__main__":
    
     model = NeuralNetwork()
 
-    loss_fn = torch.nn.CrossEntropyLoss()
-    optimizer = torch.optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
+    loss_fn = torch.nn.MSELoss()
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
 
     timestamp = datetime.now().strftime('%d/%m/%Y, %H:%M:%S')
     writer = SummaryWriter('runs/profier_{}'.format(timestamp))
     epoch_number = 0
-    EPOCHS = 5
+    EPOCHS = 100
     
     best_vloss = 1_000_000.
 
